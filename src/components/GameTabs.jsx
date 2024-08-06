@@ -83,8 +83,8 @@ const GameTabs = () => {
   const language = localStorage.getItem("lan");
 
   return (
-    <div className="cursor-pointer mb-5 ">
-      <div className="gameTitleContainer mt-4 mb-3 d-flex align-items-center gap-3 gap-sm-4">
+    <div className="cursor-pointer mb-2 mt-2 pt-0">
+      <div className="gameTitleContainer mb-2 d-flex align-items-center gap-3 gap-sm-4">
         {tabs.map((tab, index) => {
           return (
             <p
